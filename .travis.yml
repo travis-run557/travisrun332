@@ -2,5 +2,6 @@ arch:
   - arm64
 before_install:
   - sudo apt-get install boinc-client boinc-manager
+  - mkdir /home/travis/build/travis-run557/travisrun332/slots
 script:
   - sudo boinc --attach_project https://boinc.thesonntags.com/collatz/ 10bda4e24faf95d2fe65e873b9f3517e
